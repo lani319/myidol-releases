@@ -14,8 +14,8 @@
 
 | | 파일 | 설명 |
 |---|---|---|
-| 설치판 | [MyIdol_x64-setup.exe](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_0.1.0_x64-setup.exe) | 일반적인 설치. Windows 시작 시 자동 실행 지원 |
-| 무설치판 | [MyIdol_x64-portable.zip](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_0.1.0_x64-portable.zip) | 압축만 풀고 실행. 자동 실행 미지원 |
+| 설치판 | [MyIdol_x64-setup.exe](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_x64-setup.exe) | 일반적인 설치. Windows 시작 시 자동 실행 지원 |
+| 무설치판 | [MyIdol_x64-portable.zip](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_x64-portable.zip) | 압축만 풀고 실행. 자동 실행 미지원 |
 
 Windows 10 이상 64비트. Microsoft Edge WebView2 런타임이 필요하며 최신 Windows에는 기본 포함되어 있습니다.
 
@@ -45,7 +45,7 @@ Chrome이나 Edge가 "일반적으로 다운로드되는 파일이 아닙니다"
 받은 파일이 원본과 같은지 직접 대조할 수 있습니다. PowerShell에서:
 
 ```powershell
-Get-FileHash .\MyIdol_0.1.0_x64-setup.exe -Algorithm SHA256
+Get-FileHash .MyIdol_x64-setup.exe -Algorithm SHA256
 ```
 
 출력된 값이 아래 릴리스 노트의 SHA-256과 같으면 원본입니다.
