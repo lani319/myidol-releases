@@ -10,12 +10,14 @@
 
 ## 다운로드
 
-**[다운로드 페이지 →](https://github.com/lani319/myidol-releases/releases)**
+**[최신 버전 받기 →](https://github.com/lani319/myidol-releases/releases/latest)**
 
 | | 파일 | 설명 |
 |---|---|---|
-| 설치판 | [MyIdol_x64-setup.exe](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_x64-setup.exe) | 일반적인 설치. Windows 시작 시 자동 실행 지원 |
-| 무설치판 | [MyIdol_x64-portable.zip](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_x64-portable.zip) | 압축만 풀고 실행. 자동 실행 미지원 |
+| 설치판 | [MyIdol-x64-setup.exe](https://github.com/lani319/myidol-releases/releases/latest/download/MyIdol-x64-setup.exe) | 일반적인 설치. Windows 시작 시 자동 실행 지원 |
+| 무설치판 | [MyIdol-x64-portable.zip](https://github.com/lani319/myidol-releases/releases/latest/download/MyIdol-x64-portable.zip) | 압축만 풀고 실행. 자동 실행 미지원 |
+
+위 링크는 항상 **최신 버전**을 가리킵니다. 현재 버전과 변경 내역은 [릴리스 페이지](https://github.com/lani319/myidol-releases/releases/latest)에서 확인하세요.
 
 Windows 10 이상 64비트. Microsoft Edge WebView2 런타임이 필요하며 최신 Windows에는 기본 포함되어 있습니다.
 
@@ -45,7 +47,7 @@ Chrome이나 Edge가 "일반적으로 다운로드되는 파일이 아닙니다"
 받은 파일이 원본과 같은지 직접 대조할 수 있습니다. PowerShell에서:
 
 ```powershell
-Get-FileHash .MyIdol_x64-setup.exe -Algorithm SHA256
+Get-FileHash .\MyIdol-x64-setup.exe -Algorithm SHA256
 ```
 
 출력된 값이 아래 릴리스 노트의 SHA-256과 같으면 원본입니다.
@@ -79,9 +81,9 @@ Get-FileHash .MyIdol_x64-setup.exe -Algorithm SHA256
 
 MyIdol은 오픈소스가 아닙니다.
 
-- 사용 조건: [EULA.txt](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/EULA.txt)
+- 사용 조건: [EULA.txt](https://github.com/lani319/myidol-releases/releases/latest/download/EULA.txt)
 - 최초 실행일로부터 **7일 체험** 가능. 이후 육성 기능이 정지되며 알림 기능은 계속 동작합니다
-- 포함된 오픈소스 구성요소 고지: [THIRD-PARTY-NOTICES.txt](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/THIRD-PARTY-NOTICES.txt)
+- 포함된 오픈소스 구성요소 고지: [THIRD-PARTY-NOTICES.txt](https://github.com/lani319/myidol-releases/releases/latest/download/THIRD-PARTY-NOTICES.txt)
 
 수정하지 않은 원본 설치 파일을 비영리로 공유하는 것은 허용됩니다.
 
