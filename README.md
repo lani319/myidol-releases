@@ -14,8 +14,8 @@
 
 | | 파일 | 설명 |
 |---|---|---|
-| 설치판 | [MyIdol_0.1.0_x64-setup.exe](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_0.1.0_x64-setup.exe) | 일반적인 설치. Windows 시작 시 자동 실행 지원 |
-| 무설치판 | [MyIdol_0.1.0_x64-portable.zip](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_0.1.0_x64-portable.zip) | 압축만 풀고 실행. 자동 실행 미지원 |
+| 설치판 | [MyIdol_x64-setup.exe](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_0.1.0_x64-setup.exe) | 일반적인 설치. Windows 시작 시 자동 실행 지원 |
+| 무설치판 | [MyIdol_x64-portable.zip](https://github.com/lani319/myidol-releases/releases/download/v0.1.0-beta.1/MyIdol_0.1.0_x64-portable.zip) | 압축만 풀고 실행. 자동 실행 미지원 |
 
 Windows 10 이상 64비트. Microsoft Edge WebView2 런타임이 필요하며 최신 Windows에는 기본 포함되어 있습니다.
 
